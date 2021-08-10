@@ -19,18 +19,22 @@ h1,h2,h3{
     margin: 0;
     font-family: Geneva, Verdana, sans-serif;
     color: rgb(178, 211, 211);
-
+}
+h4{
+    font-size: 19px;
+    margin: 0;
+    font-family: Geneva, Verdana, sans-serif;
+    color: rgb(67, 134, 134);
 }
 header{
     background: rgb(17, 17, 17);
-    
+    background-image: url("https://i.imgur.com/D9USQIj.png");
     padding: 30px 70px;
 
 }
 body{
     background-color: rgb(32, 32, 32);
     margin: 0;
-    /* background-image: url("C:/Users/Rodrigo/Desktop/Estudoz/Projeto web/Cubos/img/back.jpg"); */
     background-repeat: repeat; /* repetindo a imagem no eixo x e y  */
     background-attachment: fixed; /* fixando a imagem de fundo */
     background-position: center center;
@@ -45,7 +49,8 @@ main{
 
 }
 .t60{
-    color: rgb(75, 102, 80);
+    color: rgb(112, 145, 151);
+    font-size: 30px;
 
 }
 .dados{
@@ -77,8 +82,8 @@ main{
     margin-top: 8px;
 
 }
-.experiencias .linha{ /*linha roxa*/
-    border: 2px solid rgb(79, 13, 141);
+.experiencias .linha{ /*linha verde*/
+    border: 2px solid rgb(20, 126, 47);
 
 }
 
@@ -161,7 +166,7 @@ ul, ol{
 .barra2{
     width: 20%;
     height: 4px;
-    background-color: rgb(226, 168, 43);
+    background-color: rgb(226, 43, 83);
 
     margin-top: 8px;
 }
